@@ -1,11 +1,16 @@
 # Ex--6-AWS-Account-setup-and-S3-creation-
 CLOUD STORAGE CREATION (S3) AND LAUNCHING AN (EC2) INSTANCE IN AWS
+
+
 NAME: Avantika Krishnadas Kundooly
 REG NO: 212224040040
+
+
 Aim
 To create and configure an Amazon Elastic Block Store (EBS) volume, attach and mount it to an Amazon EC2 instance, create a snapshot backup, and restore the snapshot to a new EBS volume.
 
 Algorithm / Steps
+
 Create a new Amazon EBS volume with a size of 1 GiB.
 Select the same Availability Zone as the EC2 instance.
 Attach the EBS volume to the EC2 instance using /dev/sdb.
@@ -49,6 +54,7 @@ sudo sh -c "echo some text has been written > /mnt/data-store/file.txt"
 
 ```bash
 cat /mnt/data-store/file.txt
+```
 10. Delete the File
 sudo rm /mnt/data-store/file.txt
 11. Verify File Deletion
@@ -62,6 +68,7 @@ ls /mnt/data-store2/
 Expected output:
 
 file.txt
+
 
 Outputs
 
