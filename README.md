@@ -1,6 +1,6 @@
 # CLOUD STORAGE CREATION (S3) AND LAUNCHING AN (EC2) INSTANCE IN AWS
-## NAME: Abinav Aaditya
-## REG NO: 212224040008
+## NAME: Avantika Krishnadas Kundooly
+## REG NO: 212224040040
 
 ## Aim
 
